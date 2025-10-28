@@ -33,11 +33,11 @@ public class BehaviourComponet : MonoBehaviour
         {
             GetComponent<Renderer>().material.color = Color.yellow;
         }
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            GetComponent<Renderer>().material.color = Color.black;
+        }
 
+     }
 
-
-
-
-
-    }
 }
