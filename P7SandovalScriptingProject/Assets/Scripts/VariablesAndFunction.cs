@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VariablesAndFunction : MonoBehaviour
 {
-    int myInt = 5;
+    int myInt = 5792835;
 
 
     void Start()
