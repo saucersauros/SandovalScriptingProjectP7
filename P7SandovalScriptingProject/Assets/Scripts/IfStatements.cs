@@ -26,12 +26,12 @@ public class NewBehaviourScript : MonoBehaviour
     {
         if(coffeeTempature > hotLimitTempature)
         {
-            print("my Chicken is hot");
+            print("my chicken is hot");
         }
 
         else if(coffeeTempature < coldLimitTempature)
         {
-            print("my Chicken is cold");
+            print("my chicken is cold");
         }
 
         else
