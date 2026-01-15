@@ -16,7 +16,7 @@ public class AnotherClass : MonoBehaviour
         Debug.Log("Fruit total: " + answer);
     }
 
-    private void officesort (int a , int b)
+    private void OfficeSort (int a, int b)
     {
         int answer;
         answer = a + b;

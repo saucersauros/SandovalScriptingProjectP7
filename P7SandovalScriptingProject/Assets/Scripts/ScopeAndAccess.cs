@@ -10,13 +10,13 @@ public class ScopeAndAccess : MonoBehaviour
     private AnotherClass myOtherClass;
 
     // Start is called before the first frame update
-    void Start()
+    void Start ()
     {
-        alpha = 29;
+        alpha = 25;
         myOtherClass = new AnotherClass();
         myOtherClass.FruitMachine(alpha, myOtherClass.apples);
     }
-    void examples (int pens, int crayons)
+    void Example (int pens, int crayons)
     {
         int answer;
         answer = pens * crayons * alpha;
@@ -25,6 +25,6 @@ public class ScopeAndAccess : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Alpha is set to" + alpha);
+        Debug.Log("Alpha is set to:  " + alpha);
     }
 }
